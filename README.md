@@ -19,6 +19,18 @@ locally — ensuring that added data remains available even after the app is clo
 
 ## Installation
 
- Clone or download this repository:
-   ```bash
+ 1. Clone or download this repository:
+   bash
    git clone https://github.com/capotejeverlyshane-cmyk/riskready.git
+
+ 2. Navigate into the folder:
+
+        cd riskready
+
+ 3. Install dependencies:
+
+        flutter pub get
+
+ 4. Run the app:
+
+        flutter run
