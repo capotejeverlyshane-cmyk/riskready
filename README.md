@@ -66,9 +66,8 @@ flutter:
   assets:
     - assets/images/logo.png
 
-# ---------------------------
+
 # Launcher Icon Configuration
-# ---------------------------
 flutter_launcher_icons:
   android: true
   ios: true
@@ -76,9 +75,7 @@ flutter_launcher_icons:
   adaptive_icon_background: "#ffffff"
   adaptive_icon_foreground: "assets/images/logo.png"
 
-# ---------------------------
 # Splash Screen Configuration
-# ---------------------------
 flutter_native_splash:
   color: "#ffffff"
   image: assets/images/logo.png
