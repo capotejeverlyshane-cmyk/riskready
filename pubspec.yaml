@@ -1,0 +1,46 @@
+name: riskready
+description: "RiskReady Flutter App with custom icon and splash screen."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+
+# ---------------------------
+# Launcher Icon Configuration
+# ---------------------------
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
+# ---------------------------
+# Splash Screen Configuration
+# ---------------------------
+flutter_native_splash:
+  color: "#ffffff"                # Background color of splash screen
+  image: assets/images/logo.png   # Logo path
+  android: true
+  ios: true
+  web: false
