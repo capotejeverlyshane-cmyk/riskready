@@ -20,7 +20,7 @@ locally — ensuring that added data remains available even after the app is clo
 ## Installation
 
  1. Clone or download this repository:
-   bash
+
    git clone https://github.com/capotejeverlyshane-cmyk/riskready.git
 
  2. Navigate into the folder:
