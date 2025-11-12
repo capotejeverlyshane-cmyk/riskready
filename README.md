@@ -1,8 +1,7 @@
+
 # riskready
 
 A new Flutter project.
-
-## Getting Started
 
 
 # description 
@@ -22,8 +21,6 @@ for faster access.
 5. Call Directly: Tapping any contact will automatically launch the phone dialer with
 the selected number ready to call. 6. Data Saving: The app uses SharedPreferences to store favorites and custom cities
 locally — ensuring that added data remains available even after the app is closed.
-
-
 
 
 ## Installation
@@ -106,7 +103,7 @@ Open lib/main.dart and paste the main RiskReady code that contains: - Contact cl
 or
 
  1. Clone or download this repository:
-   bash
+
    git clone https://github.com/capotejeverlyshane-cmyk/riskready.git
 
  2. Navigate into the folder:
@@ -121,15 +118,3 @@ or
 
         flutter run
 
-
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
